@@ -485,3 +485,86 @@ POLITICA Y PRIVACIDAD
         width: 100%;
     }
     }
+/*-------------------------------------------------
+SERVICIOS
+-------------------------------------------------*/
+
+.img_servicios{
+    background-image: url(img/run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+
+.servicios{
+    font-size: 20px;
+    margin: 20px;
+    color: #03989E;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+.tabla-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.precios-servicios {
+    background-color: white;
+    flex: 1;
+    padding: 0 30px 30px;
+    margin: 2%;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.precios-servicios h5 {
+    font-size: 45px;
+}
+
+.precios-servicios p{
+    margin: 24px 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.listaServicios {
+    padding: 0;
+    list-style-type: none;
+}
+
+.listaServicios li {
+    font-weight: 100;
+    padding: 12px 0;
+    font-weight: 100;
+}
+
+
+.botonServicios {
+    border-radius: 25px;
+    border: none;
+    background-color: #03989E;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+.botonServicios:hover {
+    background-color: #05dae1;
+    color: white; }
