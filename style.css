@@ -210,6 +210,17 @@
     }
 }
 
+@media screen and (max-width: 1400px){
+    .nosotros{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    iframe{
+        width: 80%;
+    }
+}
+
 
 /*-------------------------------------------------
 MENU 
